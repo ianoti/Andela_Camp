@@ -1,3 +1,12 @@
 # Andela_Camp
 This Git repository to be used throughout the Andela Bootcamp.
-It contains the primenumbers module written in Python 3 to print prime numbers upto a limit specified when calling the function.
+primenumbers.py is the Python 3 module to print prime numbers upto a limit specified when calling the function.
+
+car.py holds is the Python 3 module for the OOP Car class assignement
+
+data_type.py holds the Python 3 module for the Data types lab
+
+fizz_buzz.py is the Python 3 module for the FizzBuzz assignement
+
+structure.py is the Python 3 module holding my implementation of a Real world problem modelled using OOP
+
