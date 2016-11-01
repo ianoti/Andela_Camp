@@ -9,4 +9,4 @@ def fizz_buzz(arg):
 		else:
 			return arg
 	else:
-		return "please give only integers as output"
+		return "please give only integers as input"
