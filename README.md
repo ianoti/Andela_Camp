@@ -10,3 +10,5 @@ fizz_buzz.py is the Python 3 module for the FizzBuzz assignement
 
 structure.py is the Python 3 module holding my implementation of a Real world problem modelled using OOP
 
+words.py is the Python 3 module holding my implementation of the words function from the Bootcamp labs
+
