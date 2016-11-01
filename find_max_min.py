@@ -1,9 +1,19 @@
 def find_max_min(collection):
-	min_max = []
 	identity = []
-	sorted_list = sorted(collection)
-	min_max.append(sorted_list[0])
-	min_max.append(sorted_list[int(len(collection)-1)])
+	min_max = []
+	mini = collection[0]
+	maxi = collection[int(len(collection))-1]
+	for integer in collection:
+		if mini > integer:
+			mini = integer
+		else:
+			pass
+		if maxi < integer:
+			maxi = integer
+		else:
+			pass
+	min_max.append(mini)
+	min_max.append(maxi)
 	a = min_max[0]
 	b = min_max[1]
 	if a == b:
