@@ -14,3 +14,5 @@ words.py is the Python 3 module holding my implementation of the words function 
 
 find_max_min.py is the Python 3 module holding my implementation of the maximum minimum numbers assignement
 
+weather_prog.py is the Python 3 module holding a function tempname() which queries a string and returns the temperature and sky conditions for that city.
+
