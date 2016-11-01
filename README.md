@@ -12,3 +12,5 @@ structure.py is the Python 3 module holding my implementation of a Real world pr
 
 words.py is the Python 3 module holding my implementation of the words function from the Bootcamp labs
 
+find_max_min.py is the Python 3 module holding my implementation of the maximum minimum numbers assignement
+
