@@ -1,0 +1,14 @@
+body{
+	font-family: arial;
+}
+p{
+	background: grey;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.secondary{
+	background: none;
+	padding:10px;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Andela Bootcamp User Interface</title>
+		<link href="main.css" rel="stylesheet" type="text/css" /link>
+	</head>
+
+	<body>
+		<h3>Random Quote and Cat picture Generator</h3>
+		<p>click <a href = "https://www.google.com/">here</a> to visit Sir Google</p>
+		<p class="secondary">This interface is an exercise in generating random quotes and capitilising text</p>
+
+		<script type="text/javascript">
+		function randomnumber(){
+			var rand = Math.floor(Math.random()*5) + 1;
+			return rand;
+		}
+		</script>
+		
+		<script type="text/javascript">
+		function buttonclick(){
+			var rnd = randomnumber();
+			var rnd_1 = randomnumber();
+			var div = document.getElementById('textchange');
+			var div_1 = document.getElementById('catpic');
+			if (rnd == 1){
+				div.innerHTML = "Isaac Newton's teacher thought he was an idiot"
+			}
+			if (rnd == 2){
+				div.innerHTML = "Albert Einstein said - 'Judging a fish by it's ability to climb trees will leave the fish feeling stupid'"
+			}
+			if (rnd == 3){
+				div.innerHTML = "Mwaniki - 'Ukigonga dirisha yangu tena nitakupiga pasi'"
+			}
+			if (rnd == 4){
+				div.innerHTML = "Boda Boda - 'Fare ni Soo mbili, kama hutaki tembea basi'"
+			}
+			if (rnd == 5){
+				div.innerHTML = "Linux says - Beware the window, many dangers creep in through windows"
+			}
+			if (rnd_1 == 1){
+				div_1.src = "http://i.dailymail.co.uk/i/pix/2012/06/26/article-0-13CA2B13000005DC-989_468x474.jpg"
+			}
+			if (rnd_1 == 2){
+				div_1.src = "https://s-media-cache-ak0.pinimg.com/564x/03/17/c1/0317c1aa041c68915b809752c3d2da10.jpg"
+			}
+			if (rnd_1 == 3){
+				div_1.src = "https://pixabay.com/static/uploads/photo/2015/08/10/04/58/pet-882448_960_720.jpg"
+			}
+			if (rnd_1 == 4){
+				div_1.src = "https://www.colourbox.com/preview/3769253-fuuny-gray-kitten.jpg"
+			}
+			if (rnd_1 == 5){
+				div_1.src = "https://pbs.twimg.com/profile_images/1166725501/890ddcf40.jpg"	
+			}
+		}
+		</script>
+		
+		<script type="text/javascript">
+		function returntext(){
+			var userInput = document.getElementById("userInput").value;
+			var userInputcap = userInput.toUpperCase();
+			if (userInput == ''){
+				document.getElementById("output").innerHTML = "Please type in something as told"
+			}
+			else{
+				document.getElementById("output").innerHTML = "The Uppercase of what you typed is: " + userInputcap;
+			}
+			
+		}
+		</script>
+
+		<p id="textchange">Behold some random quotes shall appear</p>
+		<button type="button" onclick="buttonclick()">Randomise</button>
+		<br>
+		<br>
+		<input type="text" id="userInput" placeholder="type something here">
+		<button type="button" onclick="returntext()"> Capitalise</button>
+		<br>
+		
+		<p id="output"></p>
+		<p class="secondary" id="picture">some unrelated pictures to distract you</p>
+		<center>
+			<img id="catpic" src="http://i.dailymail.co.uk/i/pix/2012/06/26/article-0-13CA2B13000005DC-989_468x474.jpg">
+		</center>
+	</body>
+
+
+</html>
