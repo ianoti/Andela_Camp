@@ -22,6 +22,10 @@ class BinarySearch(list):
 			search_results["index"] = top
 			search_results["count"] = counter
 			return search_results
+		if self[bottom] == target:
+			search_results["index"] = bottom
+			search_results["count"] = counter
+			return search_results
 		
 		while bottom < top:
 			middle = (bottom+top)//2
