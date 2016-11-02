@@ -37,5 +37,5 @@ class BinarySearch(list):
 				top = middle
 			counter += 1
 		search_results["index"] = -1
-		search_results["count"] = 3
+		search_results["count"] = counter-2
 		return search_results
