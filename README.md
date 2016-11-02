@@ -15,9 +15,16 @@ words.py is the Python 3 module holding my implementation of the words function 
 find_max_min.py is the Python 3 module holding my implementation of the maximum minimum numbers assignement
 weather_prog.py is the Python 3 module holding a function tempname() which queries a string and returns the temperature and sky conditions for that city.
 
+Wednesday Home Session:
+html_css interface folder holds the index.html and main.css files for the simple user interface.
+BinarySearch.py is the Python 3 module holding implementation of the binary search algorithm
+find_missing.py is the Python 3 module holding implementation of the find a missing number assignment
+
+
 How to Run the Modules:
 -you will need Python installed on your machine
 -clone the repository
+-the weather_prog.py module will require installation of the python Requests optional module
 -run the modules as usual in Python. 
 
 Note:
