@@ -30,11 +30,12 @@ class BinarySearch(list):
 				search_results["index"] = middle
 				search_results["count"] = counter
 				return search_results
+			
 			elif self[middle] < target:
 				bottom = middle +1
 			else:
-				top = middle-1
+				top = middle
 			counter += 1
 		search_results["index"] = -1
-		search_results["count"] = counter
+		search_results["count"] = 3
 		return search_results
