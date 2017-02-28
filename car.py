@@ -35,3 +35,12 @@ class Car(object):
 			return self
 		else:
 			return self
+		
+	""" this should pass shindwe kabisa
+	    def drive(self, speed):
+        	if self.type_of_car is 'trailer':
+            		self.speed = speed * 11
+        	else:
+            		self.speed = 10 ** speed
+        	return self
+	"""
